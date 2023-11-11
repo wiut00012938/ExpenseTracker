@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ServerApplication
 {
-    public class dbManager
+    public class DbManager
     {
         public SQLiteConnection Connection
         {

@@ -9,15 +9,17 @@ using System.Windows.Forms;
 
 namespace ServerApplication
 {
-    public partial class ExpenditureManager: dbManager
+    public partial class ExpenditureManager: DbManager
     {
         public void Create(string description, DateTime date, double amount)
         {
-            var connection = Connection; // Connection is a part of dbManager. It reference to our real database connection
-            try //in every void, list we will use try-catch method
+            var connection = Connection; // Connection is a part of DbManager. It reference to our real database connection
+            try
             {
+                //Executing of sql query
                 var sql = "INSERT INTO Expense (ExpenseDescription, ExpenseDate, ExpenseAmount) VALUES (@description, @date, @amount)";
                 var command = new SQLiteCommand(sql, connection);
+                //we are using parameters to explicitly define data types
                 command.Parameters.AddWithValue("@description", description);
                 command.Parameters.AddWithValue("@date", date.Ticks);
                 command.Parameters.AddWithValue("@amount", amount);
@@ -72,7 +74,7 @@ namespace ServerApplication
         
         public List<Expenditure> Searching()
         {
-            //before finding a sum of hours worked, we need to filter the data. We need to fitter by employeeid and the month of a report
+            //gettting only those records, where a month of expeniditure is a corrent month
             return GetAll().Where(a => Convert.ToDateTime(a.ExpenditureDate).Month == DateTime.Now.Month).ToList();
         }
 

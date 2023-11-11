@@ -10,13 +10,14 @@ namespace ServerApplication
 {
     public class ServerAddress
     {
-        private static int localPortNumber = new Random(1234).Next(2000, 10000);
+        //getting static local Port Number for Server Side
+        private static readonly int localPortNumber = new Random(1234).Next(2000, 10000);
 
         public static int LocalPortNumber
         {
             get { return localPortNumber; }
         }
-        
+        //getting Local IP
         public static string GetLocalIP()
         {
             var host = Dns.GetHostEntry(Dns.GetHostName());

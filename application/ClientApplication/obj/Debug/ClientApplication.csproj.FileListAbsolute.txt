@@ -17,22 +17,3 @@ C:\Users\User\OneDrive\Документы\Education\level 5\Network Operations\a
 C:\Users\User\OneDrive\Документы\Education\level 5\Network Operations\application\ClientApplication\bin\Debug\ServerApplication.exe.config
 C:\Users\User\OneDrive\Документы\Education\level 5\Network Operations\application\ClientApplication\bin\Debug\System.Data.SQLite.xml
 C:\Users\User\OneDrive\Документы\Education\level 5\Network Operations\application\ClientApplication\obj\Debug\ClientApplication.csproj.CopyComplete
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ClientApplication\bin\Debug\ExpenseDB.db
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ClientApplication\bin\Debug\ClientApplication.exe.config
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ClientApplication\bin\Debug\ClientApplication.exe
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ClientApplication\bin\Debug\ClientApplication.pdb
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ClientApplication\bin\Debug\ServerApplication.exe
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ClientApplication\bin\Debug\System.Data.SQLite.dll
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ClientApplication\bin\Debug\ServerApplication.pdb
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ClientApplication\bin\Debug\ServerApplication.exe.config
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ClientApplication\bin\Debug\System.Data.SQLite.xml
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ClientApplication\obj\Debug\ClientApplication.csproj.AssemblyReference.cache
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ClientApplication\obj\Debug\ClientApplication.ExpenseAddForm.resources
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ClientApplication\obj\Debug\ClientApplication.ExpenseViewForm.resources
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ClientApplication\obj\Debug\ClientApplication.Home.resources
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ClientApplication\obj\Debug\ClientApplication.Properties.Resources.resources
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ClientApplication\obj\Debug\ClientApplication.csproj.GenerateResource.cache
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ClientApplication\obj\Debug\ClientApplication.csproj.CoreCompileInputs.cache
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ClientApplication\obj\Debug\ClientApplication.csproj.CopyComplete
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ClientApplication\obj\Debug\ClientApplication.exe
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ClientApplication\obj\Debug\ClientApplication.pdb

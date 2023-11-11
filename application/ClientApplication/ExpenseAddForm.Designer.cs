@@ -58,11 +58,13 @@
             // 
             // dtpDate
             // 
+            this.dtpDate.CustomFormat = "yyyy-MM-dd";
+            this.dtpDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpDate.Location = new System.Drawing.Point(234, 123);
             this.dtpDate.Name = "dtpDate";
             this.dtpDate.Size = new System.Drawing.Size(200, 20);
             this.dtpDate.TabIndex = 2;
-            this.dtpDate.Value = new System.DateTime(2023, 11, 8, 17, 55, 3, 0);
+            this.dtpDate.Value = new System.DateTime(2023, 11, 11, 0, 0, 0, 0);
             // 
             // nudAmount
             // 

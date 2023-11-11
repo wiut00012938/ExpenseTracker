@@ -31,7 +31,7 @@ namespace ClientApplication
         private void Home_Load(object sender, EventArgs e)
         {
             CheckForIllegalCrossThreadCalls = false;
-
+            //setting tcpListener
             _localPortNumber = ClientApplicationAddress.LocalPortNumber; ;
             _listenerStarted = true;
             _tcpListener = new TcpListener(IPAddress.Any, _localPortNumber);
@@ -74,16 +74,16 @@ namespace ClientApplication
                         writer.Write(true); //indicates that the message was received
                         writer.Flush();
                     }
+                    //from the server side we are getting a response regarding an insertion of new expense. If we get 1 that means our expense was successfully inserted
                     if (DbInsertionResult == 1)
                     {
-                        MessageBox.Show("Expense accepted", MessageBoxOptions.DefaultDesktopOnly.ToString());
+                        MessageBox.Show("Expense accepted", "Server Response", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {
-                        MessageBox.Show("Expense rejected", MessageBoxOptions.DefaultDesktopOnly.ToString());
+                        MessageBox.Show("Expense rejected", "Server Response", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
-
                 handlerSocket = null; // nullify socket
             }
         }
@@ -102,7 +102,7 @@ namespace ClientApplication
         {
             MyForms.GetForm<ExpenseAddForm>().Show();
         }
-
+        //shutting down the TCP Listener gracefully
         private void Home_FormClosing(object sender, FormClosingEventArgs e)
         {
             StopListening();

@@ -42,6 +42,7 @@ namespace ClientApplication
                     client.Connect(ServerAddress.LocalIPNumber,Convert.ToInt32(ServerAddress.LocalPortNumber));
                     using (var writer = new BinaryWriter(client.GetStream()))
                     {
+                        // Such kind of protocol is defined: {Description Length}{Description}{Date(ticks}{Amount}
                         writer.Write(tbxDescription.Text.Length);
                         writer.Write(tbxDescription.Text.ToCharArray());
                         writer.Write(Convert.ToInt64(dtpDate.Value.Ticks));

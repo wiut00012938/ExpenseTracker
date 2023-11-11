@@ -12,17 +12,3 @@ C:\Users\User\OneDrive\Документы\Education\level 5\Network Operations\a
 C:\Users\User\OneDrive\Документы\Education\level 5\Network Operations\application\ServerApplication\obj\Debug\ServerApplication.exe
 C:\Users\User\OneDrive\Документы\Education\level 5\Network Operations\application\ServerApplication\obj\Debug\ServerApplication.pdb
 C:\Users\User\OneDrive\Документы\Education\level 5\Network Operations\application\ServerApplication\bin\Debug\ExpenseDB.db
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ServerApplication\bin\Debug\ExpenseDB.db
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ServerApplication\bin\Debug\ServerApplication.exe.config
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ServerApplication\bin\Debug\ServerApplication.exe
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ServerApplication\bin\Debug\ServerApplication.pdb
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ServerApplication\bin\Debug\System.Data.SQLite.dll
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ServerApplication\bin\Debug\System.Data.SQLite.xml
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ServerApplication\obj\Debug\ServerApplication.csproj.AssemblyReference.cache
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ServerApplication\obj\Debug\ServerApplication.Form1.resources
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ServerApplication\obj\Debug\ServerApplication.Properties.Resources.resources
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ServerApplication\obj\Debug\ServerApplication.csproj.GenerateResource.cache
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ServerApplication\obj\Debug\ServerApplication.csproj.CoreCompileInputs.cache
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ServerApplication\obj\Debug\ServerApplication.csproj.CopyComplete
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ServerApplication\obj\Debug\ServerApplication.exe
-C:\Users\User\OneDrive\Документы\GitHub\ExpenseTracker_12938\application\ServerApplication\obj\Debug\ServerApplication.pdb

@@ -9,7 +9,7 @@ namespace ServerApplication
     public class Expenditure
     {
         private string description;
-
+        //class that represents one row of the database
         public int Id { get; set; }
         public string Description {
             get => description;
@@ -22,11 +22,11 @@ namespace ServerApplication
         }
         public DateTime ExpenditureDate { get; set; }   
         public double ExpenditureAmount { get; set; }
+        // use of constructor
         public Expenditure()
         {
 
         }
-
         public Expenditure(int id, string description, DateTime expenditureDate, double expenditureAmount)
         {
             Id = id;

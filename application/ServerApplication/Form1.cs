@@ -26,9 +26,9 @@ namespace ServerApplication
         public ExpenditureManager manager = new ExpenditureManager();
         public void Form1_Load(object sender, EventArgs e)
         {
-            this.Hide();
-            CheckForIllegalCrossThreadCalls = false;
 
+            CheckForIllegalCrossThreadCalls = false; //enabling multi thread environment
+            //Setting TCP Listener
             _localPortNumber = ServerAddress.LocalPortNumber;
             _listenerStarted = true;
             _tcpListener = new TcpListener(IPAddress.Any, _localPortNumber); 
@@ -64,16 +64,18 @@ namespace ServerApplication
 
                 using (var reader = new BinaryReader(networkStream))
                 {
+                    //restoring accepted segments by defined protocol
                     var descriptionLength = reader.ReadInt32();
                     var description = new string(reader.ReadChars(descriptionLength));
-                    //var dateTicks = reader.ReadInt64();
                     var date = new DateTime(reader.ReadInt64());
                     var amount = reader.ReadDouble();
-
+                    //getting existing expenses for the current month
                     List<Expenditure> ExpenseInMonth = new ExpenditureManager().Searching();
                     var Overall = ExpenseInMonth.Sum(e=> e.ExpenditureAmount) + amount;
+                    //checking if it exeeds the limit
                     if( Overall <= 1000000)
                     {
+                        //inserting and sending a response to client side
                         manager.Create(description, date, amount);
                         SendResponse(1);
                     }

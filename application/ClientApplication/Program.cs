@@ -16,7 +16,7 @@ namespace ClientApplication
         [STAThread]
         static void Main()
         {
-            Thread.Sleep(2000);
+            Thread.Sleep(1000);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Home());
